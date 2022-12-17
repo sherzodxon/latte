@@ -1,0 +1,60 @@
+.menu {
+    margin-top: 244px;
+    background: rgba(233, 233, 227, 1);
+    padding-top: 120px;
+    color: #6F6F64;
+    padding-bottom: 120px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu-list-img {
+    width: 664px;
+}
+
+.menu-title {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 17px;
+}
+
+.menu-text {
+    width: 558px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.menu-link-wrapper {
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-link {
+    display: inline-block;
+    width: 531px;
+    padding: 15px 0px;
+    color: #6F6F64;
+    border: 2px solid #6F6F64;
+    margin-bottom: 11px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.dark-menu-link {
+    background-color: #6F6F64;
+    color: #fff;
+}
+
+.take-link {
+    font-size: 16px;
+}

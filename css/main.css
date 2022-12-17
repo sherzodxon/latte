@@ -308,6 +308,34 @@ template {
   display: none;
 }
 
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/inter-v12-latin-regular.woff2") format("woff2"), url("../../fonts/inter-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../../fonts/inter-v12-latin-700.woff2") format("woff2"), url("../../fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* azeret-mono-regular - latin */
+@font-face {
+  font-family: "Azeret Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/azeret-mono-v11-latin-regular.woff2") format("woff2"), url("../../fonts/azeret-mono-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* azeret-mono-700 - latin */
+@font-face {
+  font-family: "Azeret Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../../fonts/azeret-mono-v11-latin-700.woff2") format("woff2"), url("../../fonts/azeret-mono-v11-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 *,
 *::before,
 *::after {
@@ -315,9 +343,10 @@ template {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Inter";
+  max-width: 1440px;
 }
 
 img {
@@ -329,7 +358,13 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
@@ -345,8 +380,187 @@ h1, h2, h3, h4 {
 }
 
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 1348px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.header {
+  padding: 40px 0px;
+  padding-top: 40px;
+  background: rgb(74, 43, 51);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  margin-right: 299px;
+  margin-bottom: 8px;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item {
+  margin-right: 20px;
+}
+.header-nav-item:last-child {
+  margin-right: 0;
+}
+
+.header-nav-link {
+  font-size: 15px;
+  line-height: 24px;
+  color: #D27487;
+}
+
+.header-mess-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-mess-item {
+  margin-right: 16px;
+}
+.header-mess-item:last-child {
+  margin-right: 0;
+}
+
+.header-logo-link {
+  margin-right: 422px;
+}
+
+.intro {
+  background: rgb(74, 43, 51);
+  padding-bottom: 30px;
+}
+
+.about {
+  margin-top: 220px;
+  text-align: center;
+  color: #222222;
+}
+
+.about-title {
+  font-family: "Azeret Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+  width: 869px;
+  margin: 0 auto;
+  margin-top: 3px;
+  padding-right: 2px;
+}
+
+.menu {
+  margin-top: 244px;
+  background: rgb(233, 233, 227);
+  padding-top: 120px;
+  color: #6F6F64;
+  padding-bottom: 120px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu-list-img {
+  width: 664px;
+}
+
+.menu-title {
+  font-family: "Azeret Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 17px;
+}
+
+.menu-text {
+  width: 558px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+}
+
+.menu-link-wrapper {
+  margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu-link {
+  display: inline-block;
+  width: 531px;
+  padding: 15px 0px;
+  color: #6F6F64;
+  border: 2px solid #6F6F64;
+  margin-bottom: 11px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.dark-menu-link {
+  background-color: #6F6F64;
+  color: #fff;
+}
+
+.take-link {
+  font-size: 16px;
+}
+
+.service {
+  padding-top: 120px;
+  color: #fff;
+  background: rgb(170, 158, 84);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.service-list {
+  display: flex;
+  width: 1224px;
+  margin-left: 87px;
+}
+
+.service-item:nth-child(1) {
+  margin-right: 245px;
+}
+.service-item:nth-child(2) {
+  margin-right: 189px;
+}
+.service-item:nth-child(3) .service-text {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.service-item-title {
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  margin-bottom: 15px;
+}
+
+.service-text {
+  font-size: 25px;
+  line-height: 36px;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=main.css.map */

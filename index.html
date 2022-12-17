@@ -4,11 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Latte Cafe</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum reiciendis rerum, aspernatur, iure eaque explicabo excepturi recusandae obcaecati voluptatibus eligendi blanditiis exercitationem quas soluta odio illo quibusdam ea nihil officia molestiae. Tempora autem ex harum culpa veritatis, delectus necessitatibus earum.</h1>
-<script src="js/main.js"></script>
+    <header class="header">
+        <div class="header-container container">
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <a href="index.html" class="header-nav-link">About</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="index.html" class="header-nav-link">Menu</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="index.html" class="header-nav-link">Info</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="index.html" class="header-nav-link">Booking</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="" class="header-logo-link">
+                <img src="/img/logo.svg" width="276" height="32" alt="logo" class="header-logo">
+            </a>
+            <ul class="header-mess-list">
+                <li class="header-mess-item">
+                    <a href="index.html" class="header-mess-link">
+                        <img src="/img/sms.svg" alt="messenger" width="24" height="24" class="header-mess-img">
+                    </a>
+                </li>
+                <li class="header-mess-item">
+                    <a href="index.html" class="header-mess-link">
+                        <img src="/img/face.svg" alt="messenger" width="24" height="24" class="header-mess-img">
+                    </a>
+                </li>
+                <li class="header-mess-item">
+                    <a href="index.html" class="header-mess-link">
+                        <img src="/img/insta.svg" alt="messenger" width="24" height="24" class="header-mess-img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="intro">
+        <div class="intro-container container">
+            <img src="/img/intro.jpg" width="1328" height="644" alt="cafe" class="intro-img">
+        </div>
+    </section>
+    <main>
+        <section class="about">
+            <div class="about-container container">
+                <h2 class="about-title">About Us</h2>
+                <p class="about-text">Tucked away in the corner of Wellington, Latte Cafe is a local neighbourhood cafe and bar. Latte is all about doing what we love, in a city that we love. We keep stocked with local produce and pastries. Bring your family for a bite, or meet your friends for a coffee or warm drink.</p>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="menu-container container">
+                <div class="menu-text-wrapper">
+                    <h2 class="menu-title">Menu</h2>
+                    <p class="menu-text">We change our menu every season. Here is what we are currently dishing up.</p>
+                    <div class="menu-link-wrapper">
+                        <a href="index.html" class="menu-link dark-menu-link">Food Menu</a>
+                        <a href="index.html" class="menu-link">Drinks Menu</a>
+                        <a href="index.html" class="menu-link take-link">Takeaway Menu</a>
+                    </div>
+                </div>
+                <img src="/img/menu.jpg" width="664" height="1037" alt="menu" class="menu-list-img">
+            </div>
+        </section>
+        <section class="service">
+            <div class="service-container container">
+                <ul class="service-list">
+                    <li class="service-item">
+                        <h3 class="service-item-title">Location</h3>
+                        <p class="service-text">101 Cuba St,<br>Te Aro, Wellington</p>
+                    </li>
+                    <li class="service-item">
+                        <h3 class="service-item-title">Hours</h3>
+                        <p class="service-text">Tuesday to Friday<br>7AM - 3PM</p>
+                        <p class="service-text">Saturday to Sunday<br>8AM - 3PM</p>
+                    </li>
+                    <li class="service-item">
+                        <h3 class="service-item-title">Mondays?</h3>
+                        <p class="service-text">We are closed on Mondays<br>to reflect and refuel </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

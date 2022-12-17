@@ -1,0 +1,47 @@
+.service {
+    padding-top: 120px;
+    color: #fff;
+    background: rgba(170, 158, 84, 1);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.service-list {
+    display: flex;
+
+    width: 1224px;
+    margin-left: 87px;
+
+}
+
+.service-item {
+    &:nth-child(1) {
+        margin-right: 245px;
+    }
+
+    &:nth-child(2) {
+        margin-right: 189px;
+    }
+
+    &:nth-child(3) {
+        .service-text {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+}
+
+.service-item-title {
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-bottom: 15px;
+}
+
+.service-text {
+    font-size: 25px;
+    line-height: 36px;
+    margin-bottom: 35px;
+}
