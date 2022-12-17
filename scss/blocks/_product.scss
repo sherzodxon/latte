@@ -1,0 +1,14 @@
+.product{
+    margin-top: 152px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns:  644px 644px;
+    grid-template-rows: 300px 300px;
+    gap: 40px;
+    padding-right: 12px;
+    padding-left: 8px;
+}
+.product-item-two{
+    grid-column: 2/4;
+}

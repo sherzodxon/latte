@@ -563,4 +563,115 @@ ul, ol {
   font-size: 25px;
   line-height: 36px;
   margin-bottom: 35px;
+}
+
+.product {
+  margin-top: 152px;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: 644px 644px;
+  grid-template-rows: 300px 300px;
+  gap: 40px;
+  padding-right: 12px;
+  padding-left: 8px;
+}
+
+.product-item-two {
+  grid-column: 2/4;
+}
+
+.award {
+  margin-top: 120px;
+  background: rgb(74, 43, 51);
+  color: #D27487;
+  margin-right: 2px;
+}
+
+.award-container {
+  padding-top: 121px;
+  display: flex;
+}
+
+.award-title {
+  font-family: "Azeret Mono";
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 62px;
+  letter-spacing: 1px;
+  width: 413px;
+  margin-right: 267px;
+}
+
+.award-text {
+  width: 595px;
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 133px;
+  margin-top: 18px;
+}
+
+.footer {
+  padding-top: 56px;
+  text-align: center;
+}
+
+.footer-list {
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 37px;
+}
+
+.footer-item {
+  margin-right: 33px;
+  margin-bottom: 7px;
+}
+.footer-item:last-child {
+  margin-right: 0;
+}
+.footer-item:nth-child(7) {
+  margin-right: 0;
+}
+.footer-item:nth-child(8) {
+  margin-right: 36px;
+}
+.footer-item:nth-child(10) {
+  margin-right: 37px;
+}
+
+.footer-item-link {
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #1F1F1F;
+}
+
+.longer-margin {
+  margin-right: 0px;
+}
+
+.footer-text-wrapper {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  width: 413px;
+  margin-top: 10px;
+  padding-bottom: 39px;
+}
+
+.footer-text {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #696969;
+  margin-right: 20px;
+}
+.footer-text:last-child {
+  margin-right: 0;
+}
+.footer-text:nth-child(2) {
+  margin-right: 22px;
 }/*# sourceMappingURL=main.css.map */
